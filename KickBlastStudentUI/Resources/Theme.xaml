@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="PrimaryColor">#2B6CB0</Color>
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+    <SolidColorBrush x:Key="AppBackgroundBrush" Color="#F7FAFC"/>
+
+    <Style TargetType="Window">
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+    </Style>
+</ResourceDictionary>
